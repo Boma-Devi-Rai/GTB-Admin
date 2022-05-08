@@ -1,8 +1,13 @@
-import './App.css'
-
+import React from "react";
+import Login from "./components/Login";
+// import {Admin, Resource} from 'react-admin';
+// import lb4Provider from 'react-admin-lb4';
 function App() {
   return (
-  <div className='App'>Hello!</div> 
+    // <Admin dataProvider={lb4Provider('http://loaclhost:4000')}>
+    //   <Resource name="Notification"/>  
+    // </Admin>
+    <Login/>
   );
 }
 
